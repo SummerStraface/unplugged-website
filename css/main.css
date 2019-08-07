@@ -422,21 +422,21 @@ ABOUT PAGE
   }
 
   header {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   header .content-wrapper {
-    width: 640px;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
   }
 
   header nav {
-    justify-content: space-around;
-    width: 160px;
+    
+    width: 25%;
   }
 
   header nav ul {
-    justify-content: space-around;
+    justify-content: space-between;
 
   }
 
@@ -450,7 +450,7 @@ ABOUT PAGE
 
   aside .content-wrapper {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-flow: row wrap;
     margin: 50px 0;
   }
@@ -458,9 +458,9 @@ ABOUT PAGE
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     border: 1px solid red;
-    width: 260px;
+    width: 35%;
     margin: 0;
-    padding: 0 25px;
+    padding: 15px;
   }
 
   /*features*/
@@ -473,33 +473,34 @@ ABOUT PAGE
     width: 200px;
     margin: auto;
     padding: 5px;
+    
   }
 
   .features .features-item-description {
-    width:
+   
 
   }
 
   /*reviews*/
   .reviews article {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
   }
 
   .reviews article div {
-    width:
+    width: 65%
   }
 
   /*footer*/
   footer .content-wrapper {
-    width:
+    width: 65%
     margin: 100px o;
   }
 
   .footer-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
   }
@@ -509,7 +510,7 @@ ABOUT PAGE
   }
 
   footer .copyright {
-    width: 195px;
+    width: 197px;
 
   }
   /* =======================================================================
@@ -522,30 +523,21 @@ ABOUT PAGE
 }
 
 .mission-content p {
-  width: 300px;
-  margin: auto;
-  padding: 15px;
-  text-align: justify;
+  width: 45%;
+
 }
 
 .contact-section .content-wrapper h2 {
-  width: 552px;
+  width: 80%;
 }
 
 .contact-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
-/*.contact-info {
-  border: 1px solid red;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
 
-}*/
 
 /* ==========================================================================
    FAQ Page
