@@ -566,7 +566,7 @@ ABOUT PAGE
 }
 
 .hero-area h1 {
-  width: 75%;
+  width: 60%;
 }
 
 /*aside*/
@@ -576,7 +576,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 35%;
+  width: 30%;
 }
 
 /*features*/
@@ -591,7 +591,7 @@ aside .content-wrapper .form {
 /*reviews*/
 
 .reviews article div {
-  width: 95%;
+  width: 42%;
 }
 
 /* ==========================================================================
@@ -599,11 +599,11 @@ aside .content-wrapper .form {
    ========================================================================== */
    .mission h2, 
    .contact-section .content-wrapper h2 {
-     width: 90%;
+     width: 100%;
    }
 
    .contact-section .content-wrapper h2 {
-     margin-bottom: 10px;
+     margin-bottom: 40px;
    }
 
    /* ==========================================================================
@@ -615,7 +615,7 @@ aside .content-wrapper .form {
    }
 
    .faq-content {
-     flex-basis: 47%;
+     flex-basis: 45%;
    }
 }
 /*
