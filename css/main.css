@@ -319,7 +319,7 @@ input[type=button] {
 /*----FEATURES---*/
 
 .features {
-  background: url(../img/breakfast-meeting.jpg) center no-repeat;
+  background: url(../img/breakfast-meeting.jpg) center no-repeat #333;
   background-size: cover;
   display: flex;
   justify-content: center;
