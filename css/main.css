@@ -142,10 +142,12 @@ p {
 }
 
 img {
+  width: 100%;
 
 }
 
 figure {
+  margin: 0;
 
 }
 
@@ -183,6 +185,14 @@ header .content-wrapper {
   flex-flow: row wrap;
   
 
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -257,9 +267,12 @@ footer .copyright {
 /*---HERO-AREA-----*/
 
 .hero-area {
+  background: url('../img/hero.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  
 
 }
 
@@ -306,6 +319,8 @@ input[type=button] {
 /*----FEATURES---*/
 
 .features {
+  background: url(../img/breakfast-meeting.jpg) center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
