@@ -639,18 +639,6 @@ ABOUT PAGE
     
   }
 
-  /*.features article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    flex-basis: 50%;
-  }
-
-  .features .features-item-description {
-    width: 50%;
-
-  }*/
 
   /*reviews*/
   .reviews article {
